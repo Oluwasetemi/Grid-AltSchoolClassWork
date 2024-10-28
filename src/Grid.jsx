@@ -10,16 +10,7 @@ const gridStyles = {
 function Grid({ numRows, numCols }) {
   return (
     <div style={{}} className="grid">
-      {range(numRows).map((row) => (
-        <div
-          key={row}
-          style={{ display: 'flex', gap: '4px', marginBottom: '4px' }}
-        >
-          {range(numCols).map((column) => (
-            <div key={column} style={gridStyles}></div>
-          ))}
-        </div>
-      ))}
+      {/* {todo} */}
     </div>
   );
 }
