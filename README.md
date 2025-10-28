@@ -2,6 +2,8 @@
 
 ![2 * 4](https://res.cloudinary.com/drnqdd87d/image/upload/v1693414503/altschool/oxtmohuvcsswye05wppl.png)
 
+The picture above shows a 2 by 4 grid example. Your job is to create a configurable code that can take both rows and cells as prop to create a dynamic grid using the power of list rendering in react.
+
 Here's what the DOM structure looks like, for a 2×4 grid:
 
 ```html
