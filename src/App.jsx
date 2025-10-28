@@ -1,6 +1,6 @@
-import Grid from './Grid';
+import Grid from './Grid'
 
-// solve the css, range utility and Grid component 
+// solve the css, range utility and Grid component
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       numRows={8}
       numCols={6}
     />
-  );
+  )
 }
 
-export default App;
+export default App

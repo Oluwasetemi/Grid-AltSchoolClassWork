@@ -5,15 +5,15 @@ const gridStyles = {
   height: '100px',
   border: 'solid grey',
   borderRadius: '5px',
-};
+}
 
 function Grid({ numRows, numCols }) {
   return (
-    <div style={{}} className="grid">
+    <div style={gridStyles} className="grid">
       {/* {todo} */}
       <p>Remove me When you are ready</p>
     </div>
-  );
+  )
 }
 
-export default Grid;
+export default Grid

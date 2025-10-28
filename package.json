@@ -1,8 +1,8 @@
 {
   "name": "vite-react-starter",
-  "private": true,
-  "version": "0.0.0",
   "type": "module",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -15,11 +15,13 @@
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
+    "@eslint-react/eslint-plugin": "^2.2.2",
     "@setemiojo/eslint-config": "^6.0.0",
     "@vitejs/plugin-react": "^5.1.0",
+    "eslint": "^9.37.0",
     "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-react-hooks": "^7.0.1",
-    "eslint-plugin-react-refresh": "^0.4.24",
+    "eslint-plugin-react-hooks": "^7.0.0",
+    "eslint-plugin-react-refresh": "^0.4.23",
     "vite": "^7.1.12"
   }
 }
