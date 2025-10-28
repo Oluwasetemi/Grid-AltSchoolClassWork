@@ -11,6 +11,7 @@ function Grid({ numRows, numCols }) {
   return (
     <div style={{}} className="grid">
       {/* {todo} */}
+      <p>Remove me When you are ready</p>
     </div>
   );
 }
